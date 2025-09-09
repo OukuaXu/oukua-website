@@ -11,7 +11,7 @@ export default function Home() {
 
   const handleWaitlist = () => {
     // 暂时用 alert，之后可以改成真正的表单
-    alert("🚀 Waitlist coming soon! For now, email us at: hello@oukuaai.com");
+    alert("🚀 Waitlist coming soon! For now, email us at: kyson163@gmail.com");
   };
 
   const handleLearnMore = () => {
