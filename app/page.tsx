@@ -35,7 +35,7 @@ export default function Home() {
               AI-Powered Financial Intelligence
             </h2>
             <p className="text-gray-400 text-lg">
-              The future of trading starts here. Harnessing the power of artificial intelligence to see what others can't.
+              The future of trading starts here. Harnessing the power of artificial intelligence to see what others can&apos;t.
             </p>
           </div>
           
