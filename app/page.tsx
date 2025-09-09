@@ -9,6 +9,17 @@ export default function Home() {
     setMounted(true);
   }, []);
 
+  const handleWaitlist = () => {
+    // 暂时用 alert，之后可以改成真正的表单
+    alert("🚀 Waitlist coming soon! For now, email us at: hello@oukuaai.com");
+  };
+
+  const handleLearnMore = () => {
+    // 滚动到特性部分
+    const features = document.getElementById('features');
+    features?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 text-white">
       {/* 动态背景效果 */}
@@ -41,16 +52,20 @@ export default function Home() {
           
           {/* CTA按钮 */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-xl">
+            <button 
+              onClick={handleWaitlist}
+              className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-xl cursor-pointer">
               Join Waitlist
             </button>
-            <button className="px-8 py-4 border border-gray-600 hover:border-gray-400 rounded-lg font-semibold transition-all">
+            <button 
+              onClick={handleLearnMore}
+              className="px-8 py-4 border border-gray-600 hover:border-gray-400 rounded-lg font-semibold transition-all cursor-pointer">
               Learn More
             </button>
           </div>
           
           {/* 特性展示 */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 max-w-4xl">
+          <div id="features" className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 max-w-4xl">
             <div className="text-center p-6 rounded-lg bg-white/5 backdrop-blur-sm hover:bg-white/10 transition-all">
               <div className="text-4xl mb-4">🔮</div>
               <h3 className="text-xl font-semibold mb-2">Predictive Analytics</h3>
