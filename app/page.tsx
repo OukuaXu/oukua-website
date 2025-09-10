@@ -81,8 +81,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="max-w-2xl mx-auto text-lg text-gray-400 mb-12">
-              Professional-grade AI trading intelligence. Seven AI models. Real-time analysis. 
-              Institutional quality predictions for every trader.
+              Beyond traditional analysis. Alternative data intelligence meets macro wisdom.
+              See what others cannot. Know before the market knows.
             </p>
             <div className="flex justify-center gap-6">
               <button 
@@ -104,8 +104,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-green-400">87%</div>
-              <div className="mt-2 text-sm uppercase tracking-wider text-gray-500">Accuracy Rate</div>
+              <div className="text-4xl font-bold text-green-400">50+</div>
+              <div className="mt-2 text-sm uppercase tracking-wider text-gray-500">Data Sources</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-white">7</div>
@@ -132,21 +132,89 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-950 border border-gray-900 p-8">
-              <h3 className="text-xl font-semibold mb-4 text-green-400">MULTI-AI CONSENSUS</h3>
+              <h3 className="text-xl font-semibold mb-4 text-green-400">ALTERNATIVE DATA</h3>
               <p className="text-gray-400 leading-relaxed">
-                Seven leading AI models analyze markets simultaneously, providing unmatched prediction accuracy through consensus algorithms.
+                Satellite imagery, shipping traffic, job postings, web scraping. Oracle sees the real economy before financial statements.
               </p>
             </div>
             <div className="bg-gray-950 border border-gray-900 p-8">
-              <h3 className="text-xl font-semibold mb-4 text-blue-400">TIMEZONE ARBITRAGE</h3>
+              <h3 className="text-xl font-semibold mb-4 text-blue-400">MACRO INTELLIGENCE</h3>
               <p className="text-gray-400 leading-relaxed">
-                Exclusive cross-market analysis identifies opportunities across global time zones before others see them.
+                Central bank policies, economic cycles, geopolitical shifts. Macro direction validated by real-time alternative data.
               </p>
             </div>
             <div className="bg-gray-950 border border-gray-900 p-8">
-              <h3 className="text-xl font-semibold mb-4 text-white">3D VISUALIZATION</h3>
+              <h3 className="text-xl font-semibold mb-4 text-white">ORACLE ENGINE</h3>
               <p className="text-gray-400 leading-relaxed">
-                Revolutionary three-dimensional market analysis reveals hidden patterns invisible in traditional charts.
+                Multi-AI consensus powered by GPT-5, Claude 4.1, and proprietary models. The most advanced prediction system ever built.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Oracle System */}
+      <section className="py-24 bg-gray-950">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold uppercase tracking-wider">The Oracle System</h2>
+            <div className="mt-4 h-1 w-20 bg-green-500 mx-auto"></div>
+            <p className="mt-6 text-lg text-gray-400 max-w-3xl mx-auto">
+              While others analyze what happened, Oracle sees what&apos;s happening now.
+              Alternative data reveals the truth before financial statements.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="text-xl font-semibold mb-6 text-green-400">ALTERNATIVE DATA SOURCES</h3>
+              <ul className="space-y-4 text-gray-400">
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-3">▸</span>
+                  <span><strong>Satellite Analytics:</strong> Factory activity, parking lots, shipping ports</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-3">▸</span>
+                  <span><strong>Web Intelligence:</strong> Job postings, price changes, inventory levels</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-3">▸</span>
+                  <span><strong>Shipping Traffic:</strong> Global trade flows, supply chain stress</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-3">▸</span>
+                  <span><strong>Social Sentiment:</strong> Real-time market psychology analysis</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-semibold mb-6 text-blue-400">MACRO INTELLIGENCE</h3>
+              <ul className="space-y-4 text-gray-400">
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-3">▸</span>
+                  <span><strong>Central Bank Tracker:</strong> Policy predictions before announcements</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-3">▸</span>
+                  <span><strong>Economic Cycles:</strong> Leading indicators from alternative data</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-3">▸</span>
+                  <span><strong>Geopolitical Radar:</strong> Risk detection from unusual activities</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-3">▸</span>
+                  <span><strong>Cross Validation:</strong> Macro thesis verified by micro data</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="mt-16 text-center">
+            <div className="inline-block bg-black border border-gray-800 px-8 py-4">
+              <p className="text-lg font-mono text-green-400">
+                ORACLE SCORE: 8.5/10 | SIGNAL: STRONG BUY | CONFIDENCE: 87%
               </p>
             </div>
           </div>
