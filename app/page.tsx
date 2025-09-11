@@ -75,9 +75,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
           <div className="text-center">
             <h1 className={`text-6xl md:text-8xl font-bold tracking-tighter mb-8 transition-all duration-1000 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-              <span className="block">BEYOND</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                PREDICTION
+              <span className="block">ORACLE</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-300">
+                INTELLIGENCE
               </span>
             </h1>
             <p className="max-w-2xl mx-auto text-lg text-gray-400 mb-12">
@@ -87,11 +87,11 @@ export default function Home() {
             <div className="flex justify-center gap-6">
               <button 
                 onClick={handleTryPrediction}
-                className="px-8 py-4 bg-green-500 text-black font-semibold uppercase tracking-wider hover:bg-green-400 transition-colors"
+                className="px-8 py-4 bg-red-600 text-white font-semibold uppercase tracking-wider hover:bg-red-500 transition-all duration-300 shadow-lg hover:shadow-red-500/25"
               >
                 Start Analysis
               </button>
-              <button className="px-8 py-4 border border-gray-800 text-white font-semibold uppercase tracking-wider hover:bg-gray-900 transition-colors">
+              <button className="px-8 py-4 border-2 border-red-600 text-red-400 font-semibold uppercase tracking-wider hover:bg-red-600 hover:text-white transition-all duration-300">
                 View Demo
               </button>
             </div>
@@ -103,21 +103,21 @@ export default function Home() {
       <section className="py-16 border-y border-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl font-bold text-green-400">75%+</div>
-              <div className="mt-2 text-sm uppercase tracking-wider text-gray-500">Prediction Accuracy</div>
+            <div className="bg-gray-950 border border-red-900/30 p-6 hover:border-red-600/50 transition-all duration-300">
+              <div className="text-4xl font-bold text-red-400">75%+</div>
+              <div className="mt-2 text-sm uppercase tracking-wider text-gray-400">Prediction Accuracy</div>
             </div>
-            <div>
+            <div className="bg-gray-950 border border-red-900/30 p-6 hover:border-red-600/50 transition-all duration-300">
               <div className="text-4xl font-bold text-white">20+</div>
-              <div className="mt-2 text-sm uppercase tracking-wider text-gray-500">Data Sources</div>
+              <div className="mt-2 text-sm uppercase tracking-wider text-gray-400">Data Sources</div>
             </div>
-            <div>
-              <div className="text-4xl font-bold text-blue-400">49</div>
-              <div className="mt-2 text-sm uppercase tracking-wider text-gray-500">Files/11K Lines</div>
+            <div className="bg-gray-950 border border-red-900/30 p-6 hover:border-red-600/50 transition-all duration-300">
+              <div className="text-4xl font-bold text-red-400">49</div>
+              <div className="mt-2 text-sm uppercase tracking-wider text-gray-400">Files/11K Lines</div>
             </div>
-            <div>
+            <div className="bg-gray-950 border border-red-900/30 p-6 hover:border-red-600/50 transition-all duration-300">
               <div className="text-4xl font-bold text-white">3</div>
-              <div className="mt-2 text-sm uppercase tracking-wider text-gray-500">AI Models</div>
+              <div className="mt-2 text-sm uppercase tracking-wider text-gray-400">AI Models</div>
             </div>
           </div>
         </div>
@@ -128,24 +128,24 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold uppercase tracking-wider">Core Features</h2>
-            <div className="mt-4 h-1 w-20 bg-green-500 mx-auto"></div>
+            <div className="mt-4 h-1 w-20 bg-red-500 mx-auto"></div>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-950 border border-gray-900 p-8">
-              <h3 className="text-xl font-semibold mb-4 text-green-400">ALTERNATIVE DATA</h3>
-              <p className="text-gray-400 leading-relaxed">
+            <div className="bg-gray-950 border border-red-900/30 p-8 hover:border-red-600/50 transition-all duration-300 group">
+              <h3 className="text-xl font-semibold mb-4 text-red-400 group-hover:text-red-300">ALTERNATIVE DATA</h3>
+              <p className="text-gray-400 leading-relaxed group-hover:text-gray-300">
                 Satellite imagery, shipping traffic, job postings, web scraping. Oracle sees the real economy before financial statements.
               </p>
             </div>
-            <div className="bg-gray-950 border border-gray-900 p-8">
-              <h3 className="text-xl font-semibold mb-4 text-blue-400">MACRO INTELLIGENCE</h3>
-              <p className="text-gray-400 leading-relaxed">
+            <div className="bg-gray-950 border border-red-900/30 p-8 hover:border-red-600/50 transition-all duration-300 group">
+              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-red-300">MACRO INTELLIGENCE</h3>
+              <p className="text-gray-400 leading-relaxed group-hover:text-gray-300">
                 Central bank policies, economic cycles, geopolitical shifts. Macro direction validated by real-time alternative data.
               </p>
             </div>
-            <div className="bg-gray-950 border border-gray-900 p-8">
-              <h3 className="text-xl font-semibold mb-4 text-white">RISK MANAGEMENT</h3>
-              <p className="text-gray-400 leading-relaxed">
+            <div className="bg-gray-950 border border-red-900/30 p-8 hover:border-red-600/50 transition-all duration-300 group">
+              <h3 className="text-xl font-semibold mb-4 text-red-400 group-hover:text-red-300">RISK MANAGEMENT</h3>
+              <p className="text-gray-400 leading-relaxed group-hover:text-gray-300">
                 Professional risk control with VaR, Kelly formula position sizing, and multi-dimensional risk assessment. Protection first.
               </p>
             </div>
@@ -158,7 +158,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold uppercase tracking-wider">Latest Achievements</h2>
-            <div className="mt-4 h-1 w-20 bg-green-500 mx-auto"></div>
+            <div className="mt-4 h-1 w-20 bg-red-500 mx-auto"></div>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="text-center">
@@ -177,23 +177,23 @@ export default function Home() {
               <p className="text-gray-400">Professional risk management with Kelly formula and VaR calculations</p>
             </div>
           </div>
-          <div className="bg-black border border-gray-800 p-8 max-w-4xl mx-auto">
-            <h3 className="text-xl font-semibold mb-4 text-center">Real-Time Market Data (Sept 11, 2025)</h3>
+          <div className="bg-black border border-red-900/50 p-8 max-w-4xl mx-auto shadow-2xl shadow-red-900/20">
+            <h3 className="text-xl font-semibold mb-4 text-center text-red-400">Real-Time Market Data (Sept 11, 2025)</h3>
             <div className="grid grid-cols-3 gap-8 text-center font-mono">
-              <div>
-                <div className="text-gray-500 text-sm mb-1">AAPL</div>
-                <div className="text-xl">$226.79</div>
+              <div className="bg-gray-950 border border-red-900/30 p-4 hover:border-red-600/50 transition-all duration-300">
+                <div className="text-gray-400 text-sm mb-1">AAPL</div>
+                <div className="text-xl text-white">$226.79</div>
                 <div className="text-red-400 text-sm">-3.23%</div>
               </div>
-              <div>
-                <div className="text-gray-500 text-sm mb-1">TSLA</div>
-                <div className="text-xl">$347.79</div>
-                <div className="text-green-400 text-sm">+0.24%</div>
+              <div className="bg-gray-950 border border-red-900/30 p-4 hover:border-red-600/50 transition-all duration-300">
+                <div className="text-gray-400 text-sm mb-1">TSLA</div>
+                <div className="text-xl text-white">$347.79</div>
+                <div className="text-red-400 text-sm">+0.24%</div>
               </div>
-              <div>
-                <div className="text-gray-500 text-sm mb-1">BTC-USD</div>
-                <div className="text-xl">$114,194</div>
-                <div className="text-green-400 text-sm">+0.20%</div>
+              <div className="bg-gray-950 border border-red-900/30 p-4 hover:border-red-600/50 transition-all duration-300">
+                <div className="text-gray-400 text-sm mb-1">BTC-USD</div>
+                <div className="text-xl text-white">$114,194</div>
+                <div className="text-red-400 text-sm">+0.20%</div>
               </div>
             </div>
             <div className="mt-6 text-center text-gray-400 text-sm">
@@ -208,7 +208,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold uppercase tracking-wider">The Oracle System</h2>
-            <div className="mt-4 h-1 w-20 bg-green-500 mx-auto"></div>
+            <div className="mt-4 h-1 w-20 bg-red-500 mx-auto"></div>
             <p className="mt-6 text-lg text-gray-400 max-w-3xl mx-auto">
               While others analyze what happened, Oracle sees what&apos;s happening now.
               Alternative data reveals the truth before financial statements.
@@ -217,44 +217,44 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-green-400">ALTERNATIVE DATA SOURCES</h3>
+              <h3 className="text-xl font-semibold mb-6 text-red-400">ALTERNATIVE DATA SOURCES</h3>
               <ul className="space-y-4 text-gray-400">
                 <li className="flex items-start">
-                  <span className="text-green-400 mr-3">▸</span>
+                  <span className="text-red-400 mr-3">▸</span>
                   <span><strong>Satellite Analytics:</strong> Factory activity, parking lots, shipping ports</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-400 mr-3">▸</span>
+                  <span className="text-red-400 mr-3">▸</span>
                   <span><strong>Web Intelligence:</strong> Job postings, price changes, inventory levels</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-400 mr-3">▸</span>
+                  <span className="text-red-400 mr-3">▸</span>
                   <span><strong>Shipping Traffic:</strong> Global trade flows, supply chain stress</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-400 mr-3">▸</span>
+                  <span className="text-red-400 mr-3">▸</span>
                   <span><strong>Social Sentiment:</strong> Real-time market psychology analysis</span>
                 </li>
               </ul>
             </div>
             
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-blue-400">MACRO INTELLIGENCE</h3>
+              <h3 className="text-xl font-semibold mb-6 text-white">MACRO INTELLIGENCE</h3>
               <ul className="space-y-4 text-gray-400">
                 <li className="flex items-start">
-                  <span className="text-blue-400 mr-3">▸</span>
+                  <span className="text-red-400 mr-3">▸</span>
                   <span><strong>Central Bank Tracker:</strong> Policy predictions before announcements</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-400 mr-3">▸</span>
+                  <span className="text-red-400 mr-3">▸</span>
                   <span><strong>Economic Cycles:</strong> Leading indicators from alternative data</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-400 mr-3">▸</span>
+                  <span className="text-red-400 mr-3">▸</span>
                   <span><strong>Geopolitical Radar:</strong> Risk detection from unusual activities</span>
           </li>
                 <li className="flex items-start">
-                  <span className="text-blue-400 mr-3">▸</span>
+                  <span className="text-red-400 mr-3">▸</span>
                   <span><strong>Cross Validation:</strong> Macro thesis verified by micro data</span>
           </li>
               </ul>
@@ -262,8 +262,8 @@ export default function Home() {
           </div>
           
           <div className="mt-16 text-center">
-            <div className="inline-block bg-black border border-gray-800 px-8 py-4">
-              <p className="text-lg font-mono text-green-400">
+            <div className="inline-block bg-black border border-red-900/50 px-8 py-4 shadow-2xl shadow-red-900/20">
+              <p className="text-lg font-mono text-red-400">
                 ORACLE v0.1.0 LIVE | 49 FILES | 11,599 LINES | READY FOR PRODUCTION
               </p>
             </div>
@@ -290,7 +290,7 @@ export default function Home() {
                   placeholder="ENTER SYMBOL"
                   value={symbol}
                   onChange={(e) => setSymbol(e.target.value.toUpperCase())}
-                  className="w-full px-4 py-3 bg-black border border-gray-800 text-white uppercase placeholder-gray-600 focus:border-green-500 focus:outline-none transition-colors font-mono"
+                  className="w-full px-4 py-3 bg-black border border-gray-800 text-white uppercase placeholder-gray-600 focus:border-red-500 focus:outline-none transition-colors font-mono"
                   onKeyDown={(e) => e.key === 'Enter' && handlePredict()}
                 />
                 
@@ -298,13 +298,13 @@ export default function Home() {
                   <button
                     onClick={handlePredict}
                     disabled={loading || !symbol}
-                    className="flex-1 px-6 py-3 bg-green-500 text-black font-semibold uppercase tracking-wider hover:bg-green-400 disabled:bg-gray-800 disabled:text-gray-600 disabled:cursor-not-allowed transition-colors"
+                    className="flex-1 px-6 py-3 bg-red-600 text-white font-semibold uppercase tracking-wider hover:bg-red-500 disabled:bg-gray-800 disabled:text-gray-600 disabled:cursor-not-allowed transition-colors"
                   >
                     {loading ? 'PROCESSING...' : 'ANALYZE'}
                   </button>
                   <button
                     onClick={() => setShowPrediction(false)}
-                    className="flex-1 px-6 py-3 border border-gray-800 text-white font-semibold uppercase tracking-wider hover:bg-gray-900 transition-colors"
+                    className="flex-1 px-6 py-3 border-2 border-red-600 text-red-400 font-semibold uppercase tracking-wider hover:bg-red-600 hover:text-white transition-colors"
                   >
                     CANCEL
                   </button>
@@ -312,29 +312,29 @@ export default function Home() {
               </>
             ) : (
               <>
-                <div className="bg-black border border-gray-800 p-6 mb-6 font-mono">
+                <div className="bg-black border border-red-900/50 p-6 mb-6 font-mono shadow-2xl shadow-red-900/20">
                   <div className="text-center mb-6">
-                    <div className="text-2xl font-bold mb-2">{prediction.symbol}</div>
-                    <div className={`text-5xl font-bold mb-2 ${prediction.direction === 'UP' ? 'text-green-400' : 'text-red-400'}`}>
+                    <div className="text-2xl font-bold mb-2 text-red-400">{prediction.symbol}</div>
+                    <div className={`text-5xl font-bold mb-2 ${prediction.direction === 'UP' ? 'text-red-400' : 'text-red-600'}`}>
                       {prediction.direction === 'UP' ? '↑' : '↓'}
                     </div>
-                    <div className={`text-3xl font-bold ${prediction.direction === 'UP' ? 'text-green-400' : 'text-red-400'}`}>
+                    <div className={`text-3xl font-bold ${prediction.direction === 'UP' ? 'text-red-400' : 'text-red-600'}`}>
                       {prediction.direction === 'UP' ? '+' : ''}{prediction.predicted_change.toFixed(2)}%
                     </div>
                   </div>
                   
-                  <div className="border-t border-gray-800 pt-4 space-y-2 text-sm">
+                  <div className="border-t border-red-900/30 pt-4 space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="text-gray-500 uppercase">Confidence</span>
+                      <span className="text-gray-400 uppercase">Confidence</span>
                       <span className="text-white">{(prediction.confidence * 100).toFixed(0)}%</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-500 uppercase">Analysis</span>
+                      <span className="text-gray-400 uppercase">Analysis</span>
                       <span className="text-white text-right">{prediction.reasoning}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-500 uppercase">Powered By</span>
-                      <span className="text-white">{prediction.ai_powered ? 'MULTI-AI' : 'DEMO'}</span>
+                      <span className="text-gray-400 uppercase">Powered By</span>
+                      <span className="text-red-400">{prediction.ai_powered ? 'MULTI-AI' : 'DEMO'}</span>
                     </div>
                   </div>
                 </div>
@@ -342,13 +342,13 @@ export default function Home() {
                 <div className="flex gap-4">
                   <button
                     onClick={() => { setPrediction(null); setSymbol(''); }}
-                    className="flex-1 px-6 py-3 bg-green-500 text-black font-semibold uppercase tracking-wider hover:bg-green-400 transition-colors"
+                    className="flex-1 px-6 py-3 bg-red-600 text-white font-semibold uppercase tracking-wider hover:bg-red-500 transition-colors"
                   >
                     NEW ANALYSIS
                   </button>
                   <button
                     onClick={() => { setShowPrediction(false); setPrediction(null); setSymbol(''); }}
-                    className="px-6 py-3 border border-gray-800 text-white font-semibold uppercase tracking-wider hover:bg-gray-900 transition-colors"
+                    className="px-6 py-3 border-2 border-red-600 text-red-400 font-semibold uppercase tracking-wider hover:bg-red-600 hover:text-white transition-colors"
                   >
                     CLOSE
                   </button>
